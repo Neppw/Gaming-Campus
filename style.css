@@ -13,6 +13,8 @@
 
 body {
   font-family: "Font1", serif;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul {
@@ -260,19 +262,97 @@ ul :nth-child(8n) {
   text-transform: uppercase;
   font-size: 1.1rem;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .list h6 {
   font-size: 0.9rem;
-  margin: 10px;
+  margin: 0;
+  line-height: 30px;
 }
 
 .infos-p {
   padding: 0;
 }
 .network {
-  line-height: 30px;
+  line-height: 40px;
 }
 .footer-logos {
   letter-spacing: 5px;
+}
+
+.contact-medias {
+  position: relative;
+  margin-top: 120px;
+}
+
+#line {
+  width: 70%;
+  height: 1px;
+  position: absolute;
+  background-color: #e2ddde;
+  bottom: 150px;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.contact-medias {
+  display: flex;
+  /* column-gap: 150px; */
+  /* display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 
+    "textmedias logomedias";    */
+}
+
+.medias-text {
+  /* grid-area: "textmedias"; */
+  width: 20%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.medias-logos {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 21px;
+  margin-right: 250px;
+  /* grid-area: "logomedias";   */
+}
+
+.medias-text h3 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.medias-text p {
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  padding: 10px;
+}
+
+footer h3 {
+  display: flex;
+  font-family: "font2";
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
 }
