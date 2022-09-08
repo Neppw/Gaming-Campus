@@ -430,7 +430,7 @@ footer li {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 810px) {
+@media screen and (min-width: 320px) and (max-width: 810px) {
   body {
     overflow-x: hidden;
     width: 100%;
@@ -486,6 +486,12 @@ footer li {
     display: block;
   }
 
+  .header-news .left-part {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+
   .header-news .right-part {
     margin: 0 auto;
   }
@@ -493,7 +499,7 @@ footer li {
   .header-news .right-part button {
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
   }
 
   .main-news-container {
